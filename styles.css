@@ -319,8 +319,59 @@ body {
         visibility: hidden;
     }
 
+    #div2-fourthPage {
+        /* height: 40vh;
+        width: 70vw;
+        background-color: whitesmoke;
+        border: 5 px solid black;
+        box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+        border-radius: 12px;
+        position: absolute;
+        top: 25%;
+        left:3%; */
+
+
+        height: 30vh;
+        width: 60vw;
+        background-color: whitesmoke;
+        border: 5 px solid black;
+        box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+        border-radius: 12px;
+        position: absolute;
+        top: 31vh;
+        left: 8vw;   
+        
+    }
+    
+    #fourthPageAddItem{
+        position: absolute;
+        right: 10%;
+        background-color: rgb(69, 69, 207);
+        color: white;
+        padding: 5% 2%;
+        border-radius: 5px;
+    }
     
 }
+
+@media screen and (min-width:200px) and (max-width:450px){
+
+    #thirdPagePlusSymbol{
+        position: absolute;
+        right: 40%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 4em;
+        text-decoration: none;
+        color: white;
+        background-color:#00A5EC;
+        height: 8%;
+        width: 10%;
+        border-radius:50%
+    }
+
+}
+
 #hrThirdPage
 {
     text-decoration: none;
@@ -348,6 +399,19 @@ body {
         border-radius:50%
     }
 
+    #thirdPagePlusSymbol2{
+        position: absolute;
+        right: 40%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 5vw;
+        text-decoration: none;
+        color: white;
+        background-color:#00A5EC;
+        height: 5vh;
+        width: 10vw;
+        border-radius:50%
+    }
 
     .third-page-centerd-div {
         width: 98%;
