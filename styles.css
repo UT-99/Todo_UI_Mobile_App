@@ -278,14 +278,18 @@ body {
         position: absolute;
         color: white;
         background-color: rgb(44, 93, 192);
-        height: 3.9vh;
-        width: 12vw;
+        /* height: 3.9vh;
+         */
+         height: 16%;
+        width: 25%;
         text-align: center;
         border-radius: 1vw;
-        padding: 0.7vh 4vw;
+        /* padding: 0.7vh 4vw; */
         left: 56%;
-        top: 50%;
-        font-weight: 600;
+        top: 73%;
+        /* bottom: 20%; */
+        font-size: 12px;
+       
         
         
     }
