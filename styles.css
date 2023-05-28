@@ -214,7 +214,15 @@ body {
     right: 0%;
     top: 13.5%;
 }
+@media screen and (min-width:200px) and (max-width:1180px) {
+    #cotainer-first,
+    #cotainer-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+}
 
 @media screen and (min-width:200px) and (max-width:408px) {
     #first-heading {
