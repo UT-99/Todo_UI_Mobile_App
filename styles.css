@@ -216,7 +216,7 @@ body {
 }
 
 
-@media screen and (min-width:200px) and (max-width:768px) {
+@media screen and (min-width:200px) and (max-width:408px) {
     #first-heading {
         margin-left: 0px;
         padding-left: 0px;
@@ -320,26 +320,16 @@ body {
     }
 
     #div2-fourthPage {
-        /* height: 40vh;
-        width: 70vw;
-        background-color: whitesmoke;
-        border: 5 px solid black;
-        box-shadow: 2px 2px 2px black, -1px -1px 2px black;
-        border-radius: 12px;
-        position: absolute;
-        top: 25%;
-        left:3%; */
-
-
-        height: 30vh;
-        width: 60vw;
+        
+        height: 40vh;
+        width: 80vw;
         background-color: whitesmoke;
         border: 5 px solid black;
         box-shadow: 2px 2px 2px black, -1px -1px 2px black;
         border-radius: 12px;
         position: absolute;
         top: 31vh;
-        left: 8vw;   
+        left: 10vw;   
         
     }
     
@@ -353,6 +343,138 @@ body {
     }
     
 }
+
+
+@media screen and (min-width:409px) and (max-width:1080px) {
+    #first-heading {
+        margin-left: 0px;
+        padding-left: 0px;
+
+    }
+
+    #plus_symbol {
+        text-align: center;
+        padding: 0;
+        margin-left: 50vw;
+    }
+
+    #add-new-task {
+        display: none;
+        visibility: hidden;
+    }
+
+    #cotainer-first,
+    #cotainer-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margin-left-container-two-items {
+        margin: auto
+    }
+
+    .container-two-items {
+        margin: 30;
+    }
+
+
+    .container-first-items {
+        /* height: 30%; */
+        width: 70%;
+        border-radius: 3%;
+        margin: 10%;
+        background-color: aliceblue;
+    }
+
+    .container-two-items {
+        /* height: 30%; */
+        width: 70%;
+        border-radius: 3%;
+        margin: 7%;
+        background-color: aliceblue;
+    }
+
+    #anchortag_TripToParis {
+        display: inline;
+        height: 20%;
+        width: 70%;
+        border-radius: 3%;
+        margin: 10%;
+        margin-top:  6%;
+        /* padding: 0%; */
+        background-color: aliceblue;
+        
+
+    }
+
+
+    #div2-secondPage {
+        height: 30vh;
+        width: 60vw;
+        background-color: whitesmoke;
+        border: 5 px solid black;
+        box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+        border-radius: 12px;
+        position: absolute;
+        top: 31vh;
+        left: 20vw;         
+      
+    }
+    
+
+    #Add_task_PageTwo{
+        position: absolute;
+        color: white;
+        background-color: rgb(44, 93, 192);
+        /* height: 3.9vh;
+         */
+         height: 16%;
+        width: 25%;
+        text-align: center;
+        border-radius: 1vw;
+        /* padding: 0.7vh 4vw; */
+        left: 56%;
+        top: 73%;
+        /* bottom: 20%; */
+        font-size: 12px;
+       
+        
+        
+    }
+    
+    #thirdPageAddNewTask{
+        display: none;
+        visibility: hidden;
+    }
+
+    #div2-fourthPage {
+       
+        height: 43vh;
+        width: 80vw;
+        background-color: whitesmoke;
+        border: 5 px solid black;
+        box-shadow: 2px 2px 2px black, -1px -1px 2px black;
+        border-radius: 12px;
+        position: absolute;
+        top: 40vh;
+        left: 10vw;   
+        
+    }
+    
+    #fourthPageAddItem{
+        position: absolute;
+        right: 10%;
+        background-color: rgb(69, 69, 207);
+        color: white;
+        padding: 5% 2%;
+        border-radius: 5px;
+    }
+    
+}
+
+
+
 
 @media screen and (min-width:200px) and (max-width:450px){
 
@@ -398,7 +520,7 @@ body {
         width: 10%;
         border-radius:50%
     }
-
+    
     #thirdPagePlusSymbol2{
         position: absolute;
         right: 40%;
